@@ -1,0 +1,46 @@
+@import './header.css';
+@import './nav.css';
+
+:root {
+    --primary: #F8F8F8;
+    --darkback:#333333;
+}
+
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+h1, h2, h3, p {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (min-width: 576px) {
+    .container {
+        width: 546px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 738px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 962px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}

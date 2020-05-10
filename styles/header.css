@@ -1,0 +1,49 @@
+.header {
+    background:var(--darkback);
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+    color: var(--primary);
+}
+
+.header-content h1 {
+    font-size: 24px;
+    width: 200px;
+}
+
+.header-content nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    width: 250px;
+}
+
+
+.phone-container{
+    display: flex;
+    align-items: center;
+}
+
+.phone-icon{
+    width: 15px;
+    margin-right: 3px;
+}
+.phone {
+    font-size: 14px;
+}
+
+.callback{
+    font-size: 14px;
+    background: #8f7f7f;
+    border: none;
+    border-radius: 3px;
+    color: inherit;
+}
+
+.language{
+    font-size: 14px;
+}
