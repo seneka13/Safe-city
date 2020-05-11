@@ -1,49 +1,218 @@
-.header {
-    background:var(--darkback);
+.site-header {
+    background: var(--darkback);
 }
 
-.header-content{
+.header-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 120px;
-    color: var(--primary);
+    color: var(--light);
+    position: relative;
 }
 
-.header-content h1 {
-    font-size: 24px;
-    width: 200px;
+.logo img {
+    width: 80px;
 }
 
-.header-content nav{
+.header-nav {
     display: flex;
     justify-content: space-between;
     font-size: 14px;
-    width: 250px;
+    width: 420px;
 }
 
+.header-content a:hover {
+    text-decoration: none;
+    color: burlywood;
+}
 
-.phone-container{
+.phone-container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
-.phone-icon{
+.phone-icon {
     width: 15px;
     margin-right: 3px;
 }
+
 .phone {
     font-size: 14px;
+    margin-right: 30px;
 }
 
-.callback{
-    font-size: 14px;
-    background: #8f7f7f;
-    border: none;
-    border-radius: 3px;
+.callback {
+    font-size: 12px;
+    height: 30px;
+    width: 130px;
+}
+
+.language {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    font-size: 8px;
+}
+
+.site-nav {
+    background: var(--light);
+    box-shadow: 2px 5px 10px var(--darkback);
+}
+
+.nav-content {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.nav-content a {
+    transition: transform ease 0.3s;
+}
+
+.nav-content a:hover {
+    text-decoration: none;
     color: inherit;
+    transform: scale(1.1);
 }
 
-.language{
+.nav-dropdown {
+    display: none;
+}
+
+.nav-dropdown p {
     font-size: 14px;
+    font-weight: bold;
+    font-family: inherit;
+    color: var(--darkback)
+}
+
+.nav-btn{
+    background: none;
+    border: none;
+}
+
+@media (max-width: 992px) {
+    .header-nav {
+        padding-top: 15px;
+        display: flex;
+        justify-content: space-around;
+        font-size: 10px;
+        width: 320px;
+    }
+
+    .phone-container {
+        padding-top: 15px;
+    }
+
+    .callback {
+        font-size: 10px;
+        height: 25px;
+        width: 130px;
+    }
+
+    .phone-icon {
+        width: 10px;
+        margin-right: 3px;
+    }
+
+    .phone {
+        font-size: 10px;
+        margin-right: 30px;
+    }
+
+    .nav-content {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 765px) {
+    .header-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: auto;
+        color: var(--light);
+        padding: 20px 0;
+    }
+
+    .header-nav{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .callback {
+        height: 25px;
+        width: 110px;
+    }
+
+    .phone-icon {
+        width: 8px;
+        margin-right: 3px;
+    }
+
+    .phone {
+        font-size: 8px;
+        margin-right: 30px;
+    }
+
+    .nav-content {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 12px;
+        padding: 10px 0;
+    }
+
+    .nav-content a {
+        border-bottom: 1px solid var(--darkback);
+        line-height: 20px;
+        text-transform: uppercase;
+    }
+
+    .nav-dropdown {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-btn__img {
+        width: 30px;
+    }
+
+    .logo img{
+        width: 60px;
+    }
+}
+
+@media (max-width: 576px) {
+    .header-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: auto;
+        color: var(--light);
+        padding: 20px 0;
+    }
+
+    .phone-icon {
+        width: 8px;
+        margin-right: 3px;
+    }
+
+    .phone {
+        font-size: 8px;
+        margin-right: 30px;
+    }
 }

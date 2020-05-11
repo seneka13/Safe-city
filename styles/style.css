@@ -1,16 +1,17 @@
 @import './header.css';
-@import './nav.css';
+@import './main-content.css';
 
 :root {
-    --primary: #F8F8F8;
+    --light: #f9f9f9;
     --darkback:#333333;
+    --btncolor:#61c50f;
+    --titlecolor:#5859b3;
 }
 
 body{
     margin: 0px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
-
 
 h1, h2, h3, p {
     margin: 0px;
@@ -19,28 +20,24 @@ h1, h2, h3, p {
 a {
     text-decoration: none;
     color: inherit;
+    font-family: inherit;
 }
 
-@media (min-width: 576px) {
-    .container {
-        width: 546px;
-    }
+button{
+    padding: 0;
 }
 
-@media (min-width: 768px) {
-    .container {
-        width: 738px;
-    }
+.style-btn {
+    background: var(--btncolor);
+    border: none;
+    border-radius: 6px;
+    color: inherit;
 }
 
-@media (min-width: 992px) {
-    .container {
-        width: 962px;
-    }
+.style-btn:hover {
+    opacity: 0.9;
 }
 
-@media (min-width: 1200px) {
-    .container {
-        width: 1170px;
-    }
+button:focus {
+    outline: none;
 }
