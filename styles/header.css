@@ -175,10 +175,16 @@
         padding: 10px 0;
     }
 
+    .nav-content--border{
+        border-bottom: 1px solid var(--titlecolor);
+        width: 100%;
+        text-align: center;
+    }
+
     .nav-content a {
-        border-bottom: 1px solid var(--darkback);
         line-height: 20px;
         text-transform: uppercase;
+        font-weight: bold;
     }
 
     .nav-dropdown {
