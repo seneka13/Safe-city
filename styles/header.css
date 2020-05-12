@@ -203,7 +203,13 @@
 
 @media (max-width: 576px) {
     .header-content {
+        display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: auto;
+        color: var(--light);
+        padding: 20px 0;
     }
 
     .phone-icon {
