@@ -70,7 +70,7 @@
 }
 
 .nav-content a {
-    transition: transform ease 0.3s;
+    transition: transform ease 0.4s;
 }
 
 .nav-content a:hover {
@@ -184,7 +184,7 @@
     .nav-content a {
         line-height: 20px;
         text-transform: uppercase;
-        font-weight: bold;
+        font-weight: 500;
     }
 
     .nav-dropdown {
@@ -203,13 +203,7 @@
 
 @media (max-width: 576px) {
     .header-content {
-        display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        height: auto;
-        color: var(--light);
-        padding: 20px 0;
     }
 
     .phone-icon {
