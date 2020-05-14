@@ -45,6 +45,7 @@ button {
     color: var(--light);
     background-color: var(--btncolor);
     border-color: var(--btncolor);
+    width: 100%;
 }
 
 .order-btn:hover {
@@ -57,11 +58,11 @@ button:focus {
 }
 
 
-.modal-form {
-    padding: 20px;
+.form-title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 500;
 }
 
-option:hover{
-    cursor: pointer;
-    background: red;
+.oferta{
+    padding-top: 20px;
 }
