@@ -50,13 +50,15 @@
 }
 
 
+
+
 @media (max-width: 765px) {
     .slide__btn{
         width: 200px;
         height: 50px;
         position: absolute;
         bottom: 20px;
-        left: 20%;
+        left: 25%;
         text-transform: uppercase;
     }
 }

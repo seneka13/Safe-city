@@ -27,7 +27,8 @@
                 <div class="phone-container">
                     <img class="phone-icon" src="./img/Phone-call_icon-icons.com_51956.svg" alt="phone icon">
                     <div class=phone><a href="tel:+996555927880">+996 (555) 92-78-80</a></div>
-                    <button class="callback style-btn">Заказать звонок</button>
+                    <button class="callback style-btn" type="button" data-toggle="modal"
+                    data-target="#exampleModalCenter">Заказать звонок</button>
                 </div>
                 <div class="language">Язык</div>
             </div>
@@ -64,93 +65,140 @@
     </header>
 
     <main class="site-main">
-        <section class="slider"><div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="first-slide">
-                        <div class="container">
-                            <div class="first-slide__content">
-                                <h1 class="slide__title">Охрана дома и <br> квартиры</h1>
-                                <button class="slide__btn style-btn">Оставить заявку</button>
+        <section class="slider">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="first-slide">
+                            <div class="container">
+                                <div class="first-slide__content">
+                                    <h1 class="slide__title">Охрана дома и <br> квартиры</h1>
+                                    <button class="slide__btn style-btn" type="button" data-toggle="modal"
+                                        data-target="#exampleModalCenter">Оставить заявку</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="second-slide">
+                            <div class="container">
+                                <div class="second-slide__content">
+                                    <h1 class="slide__title">Охрана бизнеса</h1>
+                                    <button class="slide__btn style-btn" type="button" data-toggle="modal"
+                                        data-target="#exampleModalCenter">Оставить заявку</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="third-slide">
+                            <div class="container">
+                                <div class="third-slide__content">
+                                    <h1 class="slide__title">Видеонаблюдение <br>
+                                        Охранная сигнализация <br>
+                                        Пожарная сигнализация <br>
+                                        Домофоны</h1>
+                                    <button class="slide__btn style-btn" type="button" data-toggle="modal"
+                                        data-target="#exampleModalCenter">Оставить заявку</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="second-slide">
-                        <div class="container">
-                            <div class="second-slide__content">
-                                <h1 class="slide__title">Охрана бизнеса</h1>
-                                <button class="slide__btn style-btn">Оставить заявку</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="third-slide">
-                        <div class="container">
-                            <div class="third-slide__content">
-                                <h1 class="slide__title">Видеонаблюдение <br>
-                                    Охранная сигнализация <br>
-                                    Пожарная сигнализация <br>
-                                    Домофоны</h1>
-                                <button class="slide__btn style-btn">Оставить заявку</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
         </section>
-        
+
+        <section class="about-info">
+            <div class="container text-lg-center mt-5">
+                <h1>Нам доверяют</h1>
+                <hr width="50%">
+                <div class="row">
+                    <div class="col mt-5"><img src="../Safe-city/img/github_logo.png" alt="github"></div>
+                    <div class="col mt-5"><img src="../Safe-city/img/github_logo.png" alt="github"></div>
+                    <div class="col mt-5"><img src="../Safe-city/img/github_logo.png" alt="github"></div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col mt-5"><img src="../Safe-city/img/github_logo.png" alt="github"></div>
+                    <div class="col mt-5"><img src="../Safe-city/img/github_logo.png" alt="github"></div>
+                    <div class="col mt-5"><img src="../Safe-city/img/github_logo.png" alt="github"></div>
+                </div>
+                <button class="slide__btn style-btn" type="button" data-toggle="modal"
+                    data-target="#exampleModalCenter">Оставить заявку</button>
+            </div>
+
+            <div class="container text-lg-center mt-5 background-color-grey">
+                <h1>Наc рекомендуют</h1>
+                <hr width="50%">
+                <div class="row">
+                    <div class="col mt-5"><img src="../Safe-city/img/github_logo.png" alt="github"></div>
+                    <div class="col mt-5"><img src="../Safe-city/img/github_logo.png" alt="github"></div>
+                    <div class="col mt-5"><img src="../Safe-city/img/github_logo.png" alt="github"></div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col mt-5"><img src="../Safe-city/img/github_logo.png" alt="github"></div>
+                    <div class="col mt-5"><img src="../Safe-city/img/github_logo.png" alt="github"></div>
+                    <div class="col mt-5"><img src="../Safe-city/img/github_logo.png" alt="github"></div>
+                </div>
+                <button class="slide__btn style-btn" type="button" data-toggle="modal"
+                    data-target="#exampleModalCenter">Оставить заявку</button>
+            </div>
+
+            <div class="container text-lg-center mt-5">
+                <h1>О нас</h1>
+                <hr width="50%">
+                <div class="logo"><img src="./img/лого_охр_аг_БГ-removebg-preview.png" alt=""></div>
+                <p></p>
+            </div>
+        </section>
+
+
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <form class="modal-form">
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Ваше имя:</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Ваше имя">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Телефон:</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Телефон">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Эл. почта:</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Эл. почта">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">Выберите услугу:</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>Охрана квартиры</option>
+                                <option>Охрана дома</option>
+                                <option>Охрана бизнеса</option>
+                                <option>Охранная сигнализация</option>
+                                <option>Пожарная сигнализация</option>
+                                <option>Видеонаблюдение</option>
+                                <option>Домофон</option>
+                            </select>
+                        </div>
+                        <button type="button" class="btn order-btn">Отправить заявку</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </main>
-
-    <div class="container text-lg-center mt-5">
-        <h1>Нам доверяют</h1>
-        <hr width="50%">
-        <div class="row">
-            <div class="col mt-5"><img src="../Safe-city/img/github_logo.png" alt="github"></div>
-            <div class="col mt-5"><img src="../Safe-city/img/github_logo.png" alt="github"></div>
-            <div class="col mt-5"><img src="../Safe-city/img/github_logo.png" alt="github"></div>
-        </div>
-        <div class="row mb-5">
-            <div class="col mt-5"><img src="../Safe-city/img/github_logo.png" alt="github"></div>
-            <div class="col mt-5"><img src="../Safe-city/img/github_logo.png" alt="github"></div>
-            <div class="col mt-5"><img src="../Safe-city/img/github_logo.png" alt="github"></div>
-        </div>
-        <button class="slide__btn style-btn">Оставить заявку</button>
-    </div>
-
-    <div class="container text-lg-center mt-5 background-color-grey">
-        <h1>Наc рекомендуют</h1>
-        <hr width="50%">
-        <div class="row">
-            <div class="col mt-5"><img src="../Safe-city/img/github_logo.png" alt="github"></div>
-            <div class="col mt-5"><img src="../Safe-city/img/github_logo.png" alt="github"></div>
-            <div class="col mt-5"><img src="../Safe-city/img/github_logo.png" alt="github"></div>
-        </div>
-        <div class="row mb-5">
-            <div class="col mt-5"><img src="../Safe-city/img/github_logo.png" alt="github"></div>
-            <div class="col mt-5"><img src="../Safe-city/img/github_logo.png" alt="github"></div>
-            <div class="col mt-5"><img src="../Safe-city/img/github_logo.png" alt="github"></div>
-        </div>
-        <button class="slide__btn style-btn">Оставить заявку</button>
-    </div>
-
-    <div class="container text-lg-center mt-5">
-        <h1>О нас</h1>
-        <hr width="50%">
-        <div class="logo"><img src="./img/лого_охр_аг_БГ-removebg-preview.png" alt=""></div>
-        <p></p>
-    </div>
     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="./src/index.js"></script>

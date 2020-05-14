@@ -3,17 +3,20 @@
 
 :root {
     --light: #f9f9f9;
-    --darkback:#333333;
-    --btncolor:#61c50f;
-    --titlecolor:#77ff07;
+    --darkback: #333333;
+    --btncolor: #61c50f;
+    --titlecolor: #77ff07;
 }
 
-body{
+body {
     margin: 0px;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
     margin: 0px;
 }
 
@@ -23,7 +26,7 @@ a {
     font-family: inherit;
 }
 
-button{
+button {
     padding: 0;
 }
 
@@ -38,6 +41,27 @@ button{
     opacity: 0.9;
 }
 
+.order-btn {
+    color: var(--light);
+    background-color: var(--btncolor);
+    border-color: var(--btncolor);
+}
+
+.order-btn:hover {
+    color: var(--light);
+    opacity: 0.8;
+}
+
 button:focus {
     outline: none;
+}
+
+
+.modal-form {
+    padding: 20px;
+}
+
+option:hover{
+    cursor: pointer;
+    background: red;
 }
