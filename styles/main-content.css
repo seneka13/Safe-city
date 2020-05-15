@@ -49,6 +49,44 @@
     text-transform: uppercase;
 }
 
+.slide__btn1{
+    width: 200px;
+    height: 50px;
+    text-transform: uppercase;
+}
+
+.trust_us {
+    margin: 30px 0 20px;
+    text-align: center;
+}
+
+.recommended_us {
+    margin: 30px 0 20px;
+    text-align: center;
+}
+
+hr {
+    border-top: 3px solid black;
+    margin: 1 auto;
+    width: 75%;
+}
+
+.about_us {
+    margin: 30px 0 20px;
+    text-align: center;
+}
+
+.media{
+    margin: 30px 130px auto;
+}
+
+#review {
+    background-color: #999999;
+}
+
+#recommend {
+    background-image: url("../img/cover.jpg");
+}
 
 @media (max-width: 765px) {
     .slide__btn{
@@ -58,5 +96,18 @@
         bottom: 20px;
         left: 20%;
         text-transform: uppercase;
+    }
+
+    .slide__btn1{
+        width: 200px;
+        height: 50px;
+        position: relative;
+        text-transform: uppercase;
+    }
+
+    .media {
+        margin: auto;
+        text-align: center;
+        display: flex;
     }
 }
