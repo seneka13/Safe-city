@@ -1,7 +1,9 @@
 .site-footer {
   background: var(--darkback);
   font-size: 14px;
-  color: #fff;
+  color: var(--light);
+  height: 15%;
+  padding: 40px 0px;
 }
 
 .some-interesting {
@@ -16,12 +18,15 @@
 .footer-row {
   align-items: center;
   display: flex;
-  flex-wrap: wrap;
-  padding: 10px 0;
+  justify-content: space-between;
+  padding: 15px 0;
+  margin: 20px 0px;
 }
 
-.footer-row-flex {
-  justify-content: space-between;
+.footer-line{
+  background: var(--backline);
+  box-shadow: 0px 1px 5px var(--light);
+  height: 1px;
 }
 
 .footer-phone {
@@ -39,37 +44,17 @@
   color: burlywood;
 }
 
-.footer-buttons {
-  box-shadow: none;
-  font-weight: 400;
-  padding: 6px 0px;
-  text-transform: none;
+.footer-btn {
+  width: 120px;
+  height: 30px;
+  border-radius: 5px;
+  background: none;
+  color: var(--light);
+  border: 1px solid var(--light);
 }
 
-.button {
-  background-color: #00aeef;
-  border: 1px solid #00aeef;
-  border-radius: 2px;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 14px;
-  letter-spacing: .3px;
-  line-height: 1.15;
+.footer-info{
   text-align: center;
-  transition: all .15s ease-in-out;
-  user-select: none;
-  vertical-align: middle;
-  white-space: nowrap;
-}
-
-.footer-callback {
-  padding: 7px;
-}
-
-.footer-write-us {
-  margin-left: 10px;
-  padding: 7px;
 }
 
 .footer-nav {
@@ -100,11 +85,22 @@
   color: burlywood;
 }
 
+.map-name {
+  font-size: 100%;
+  text-align: end;
+}
+
 .sns {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
+  width: 30%;
 }
 
 .social {
   padding-right: 15px;
+}
+
+.social img {
+  width: 20px;
+  
 }

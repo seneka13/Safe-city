@@ -1,20 +1,30 @@
 @import './header.css';
 @import './main-content.css';
+@import './form.css';
+@import './business.css';
+@import './footer.css';
+
 
 :root {
-    --light: #f9f9f9;
-    --darkback:#333333;
-    --btncolor:#61c50f;
-    --titlecolor:#77ff07;
+    --light: #feffe9;
+    --darkback: #333333;
+    --btncolor: #61c50f;
+    --titlecolor: #77ff07;
+    --backline: #e9e9e9;
 }
 
-body{
+body {
     margin: 0px;
     font-family: 'Roboto Condensed', sans-serif;
+    background: var(--light);
 }
 
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
     margin: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 a {
@@ -22,15 +32,20 @@ a {
     color: inherit;
     font-family: inherit;
 }
+a:hover{
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit;
+}
 
-button{
+button {
     padding: 0;
 }
 
 .style-btn {
     background: var(--btncolor);
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     color: var(--light);
 }
 
