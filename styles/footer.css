@@ -85,6 +85,11 @@
   color: burlywood;
 }
 
+.map-name {
+  font-size: 100%;
+  text-align: end;
+}
+
 .sns {
   display: flex;
   justify-content: flex-start;
@@ -92,7 +97,7 @@
 }
 
 .social {
-  padding-right: 3%;
+  padding-right: 15px;
 }
 
 .social img {
