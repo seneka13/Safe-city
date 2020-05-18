@@ -1,0 +1,50 @@
+.business__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.business__content img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+.business__title{
+    margin: 30px 0;
+    font-weight: bold;
+}
+
+.business__subtitle{
+    margin: 20px 0;
+}
+
+.table-subtitle{
+    font-weight: bold;
+}
+
+.business__btn {
+    width: 200px;
+    height: 40px;
+}
+
+.business__phone {
+    font-weight: 600;
+}
+
+.business-table{
+    width: 80%;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+table ul {
+    text-align: start;
+}
+
+td{
+    width: 30%;
+}

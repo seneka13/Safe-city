@@ -1,9 +1,10 @@
 @import './header.css';
 @import './main-content.css';
 @import './form.css';
+@import './business.css';
 
 :root {
-    --light: #f9f9f9;
+    --light: #feffe9;
     --darkback: #333333;
     --btncolor: #61c50f;
     --titlecolor: #77ff07;
@@ -12,6 +13,7 @@
 body {
     margin: 0px;
     font-family: 'Roboto Condensed', sans-serif;
+    background: var(--light);
 }
 
 h1,
@@ -23,6 +25,11 @@ p {
 }
 
 a {
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit;
+}
+a:hover{
     text-decoration: none;
     color: inherit;
     font-family: inherit;
