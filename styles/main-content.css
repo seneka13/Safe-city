@@ -49,6 +49,87 @@
     text-transform: uppercase;
 }
 
+.slide__btn1{
+    width: 200px;
+    height: 50px;
+    text-transform: uppercase;
+}
+
+.trust_us {
+    margin: 30px 0 20px;
+    text-align: center;
+}
+
+.recommended_us {
+    margin: 30px 0 20px;
+    text-align: center;
+}
+
+hr {
+    border-top: 3px solid black;
+    margin: 1 auto;
+    width: 75%;
+}
+
+.about_us {
+    margin: 30px 0 20px;
+    text-align: center;
+}
+
+.media-review{
+    background: var(--backline);
+    font-family: inherit;
+    text-align: center;
+}
+
+.review-body{
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-border{
+    width: 70%;
+    text-align: center;
+    border-radius: 15px;
+    background: var(--light);
+    padding: 20px;
+}
+
+.review-title{
+    font-weight: 600;
+}
+
+.review-btn{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+#recommend {
+    background-color: var(--backline);
+}
+
+.exp-background {
+    background: var(--backline);
+}
+
+.exp-info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    height: 150px;
+}
+
+.exp-title {
+    font-weight: bold;
+    font-size: 200%;
+}
+
+
 
 
 
@@ -61,4 +142,37 @@
         left: 25%;
         text-transform: uppercase;
     }
+
+}
+
+#numbers {
+    height: 100px;
+    background-color: var(--backline);
+}
+
+.number_plus {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 26px;
+}
+
+.profit {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.0rem;
+}
+
+.prof-img {
+    height: 220px;
+}
+
+#order {
+    background-color: var(--backline);
+}
+
+.text-roboto-light {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+}
+
+.row{
+    height: auto;
 }
