@@ -1,3 +1,10 @@
+// const inputForm = document.querySelectorAll('#exampleFormControlInput1');
+//     inputForm.some(function(item){
+//         console.log(item) 
+//     })
+
+
+
 $(document).ready(function () {
 
     $('.review-btn').click(function () {
@@ -30,35 +37,49 @@ $(document).ready(function () {
 
 
     $('.order-btn').click(function () {
-        if ($(window).width() > 992) {
-            Swal.fire({
-                icon: 'success',
-                title: 'Спасибо, заявка отправлена.',
-                text: 'В ближайшее время мы свяжемся с Вами для уточнения деталей.',
-                confirmButtonColor: "#61c50f",
-                timer: 2000,
-                width: '300px'
-            })
-        } else {
-            Swal.fire({
-                icon: 'success',
-                title: 'Спасибо, заявка отправлена.',
-                text: 'В ближайшее время мы свяжемся с Вами для уточнения деталей.',
-                confirmButtonColor: "#61c50f",
-                timer: 2000,
-            })
-        }
-
-        setTimeout(() => {
-            $('.close').trigger('click')
-        }, 2000);
+        $('#exampleFormControlInput1').each(function(i, item) {
+            if (!item.value) {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Заполните форму',
+                    confirmButtonColor: "#61c50f",
+                    timer: 2000,
+                    width: '300px'
+                })
+            } else {
+                if ($(window).width() > 992) {
+                    Swal.fire({
+                        icon: 'success',
+                        title: 'Спасибо, заявка отправлена.',
+                        text: 'В ближайшее время мы свяжемся с Вами для уточнения деталей.',
+                        confirmButtonColor: "#61c50f",
+                        timer: 2000,
+                        width: '300px'
+                    })
+                } else {
+                    Swal.fire({
+                        icon: 'success',
+                        title: 'Спасибо, заявка отправлена.',
+                        text: 'В ближайшее время мы свяжемся с Вами для уточнения деталей.',
+                        confirmButtonColor: "#61c50f",
+                        timer: 2000,
+                    })
+                }
+                setTimeout(() => {
+                    $('.close').trigger('click')
+                }, 2000);
+            }
+        })
 
     })
+
+
 
     $('.contact-btn').click(function(){
         Swal.fire({
             html: '<p>Адресс: город Бишкек, ул. Горького, 142</p>'+
             '<p>Email: safe.kg@mail.ru</p>'+
+            '<p>Skype: anna.mdn</p>'+
             '<p>тел: +996(312) 90-88-07</p>'+
             '<p>факс: +996(312) 90-11-20</p>'+
             '<p>моб: +996(707) 12-00-40</p>'+
