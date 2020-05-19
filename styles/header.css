@@ -18,6 +18,7 @@
 .header-nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-size: 14px;
     width: 420px;
 }
@@ -53,7 +54,7 @@
     position: absolute;
     top: 2px;
     right: 2px;
-    font-size: 8px;
+    font-size: 12px;
 }
 
 .site-nav {
@@ -66,7 +67,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .nav-content a {
@@ -102,16 +103,14 @@
         justify-content: space-around;
         font-size: 10px;
         width: 320px;
-    }
-
-    .phone-container {
-        padding-top: 15px;
+        margin-bottom: 20px;
     }
 
     .callback {
+        margin-left: 15px;
         font-size: 10px;
         height: 25px;
-        width: 130px;
+        width: 110px;
     }
 
     .phone-icon {
@@ -120,8 +119,8 @@
     }
 
     .phone {
-        font-size: 10px;
-        margin-right: 30px;
+        font-size: 12px;
+        margin-right: 0px;
     }
 
     .nav-content {
@@ -152,7 +151,7 @@
 
     .callback {
         height: 25px;
-        width: 110px;
+        width: 80px;
     }
 
     .phone-icon {
@@ -161,8 +160,7 @@
     }
 
     .phone {
-        font-size: 8px;
-        margin-right: 30px;
+        font-size: 12px;
     }
 
     .nav-content {
@@ -199,6 +197,13 @@
     .logo img{
         width: 60px;
     }
+
+    .language {
+        position: absolute;
+        top: 2px;
+        right: 2px;
+        font-size: 9px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -218,7 +223,6 @@
     }
 
     .phone {
-        font-size: 8px;
-        margin-right: 30px;
+        font-size: 10px;
     }
 }

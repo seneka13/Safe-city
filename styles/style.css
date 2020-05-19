@@ -32,6 +32,7 @@ a {
     color: inherit;
     font-family: inherit;
 }
+
 a:hover{
     text-decoration: none;
     color: inherit;
@@ -55,4 +56,27 @@ button {
 
 button:focus {
     outline: none;
+}
+
+.contact-btn {
+    width: 110px;
+    height: 30px;
+    border-radius: 5px;
+    background: none;
+    color: var(--light);
+    border: 1px solid var(--light);
+    font-size: 12px;
+}
+
+.contact-btn:hover{
+    background-color: var(--light);
+    color: var(--darkback);
+}
+
+
+@media (max-width: 765px){
+    .contact-btn {
+        width: 80px;
+        height: 25px;
+    }
 }

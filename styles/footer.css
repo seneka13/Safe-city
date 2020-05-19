@@ -15,42 +15,23 @@
   position: relative;
 }
 
-.footer-row {
-  align-items: center;
+.footer-contact {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 15px 0;
   margin: 20px 0px;
+}
+
+.footer-row a:hover {
+    text-decoration: none;
+    color: burlywood;
 }
 
 .footer-line{
   background: var(--backline);
   box-shadow: 0px 1px 5px var(--light);
   height: 1px;
-}
-
-.footer-phone {
-  margin-left: auto;
-}
-
-.footer-phone a {
-  background: url(../img/communications.png) 0 50% no-repeat;
-  border: none;
-  padding-left: 20px;
-}
-
-.footer-phone a:hover {
-  text-decoration: none;
-  color: burlywood;
-}
-
-.footer-btn {
-  width: 120px;
-  height: 30px;
-  border-radius: 5px;
-  background: none;
-  color: var(--light);
-  border: 1px solid var(--light);
 }
 
 .footer-info{
@@ -74,18 +55,14 @@
   width: 24px;
 }
 
-.map {
+.footer-social {
   display: flex;
   justify-content: space-between;
   margin-bottom: 15px;
 }
 
-.map a:hover {
-  text-decoration: none;
-  color: burlywood;
-}
 
-.map-name {
+.map {
   font-size: 100%;
   text-align: end;
 }
