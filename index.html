@@ -1,7 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
 
-<head>
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="...">
@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./styles/style.css">
     <title>Охранное агентство Безопасный город</title>
-</head>
+    </head>
 
-<body>
+    <body>
     <header class="site-header">
         <div class="container">
             <div class="header-content">
@@ -26,7 +26,8 @@
                     <button class="contact-btn">Контакты</button>
                 </nav>
                 <div class="phone-container">
-                    <div class=phone><img class="phone-icon" src="./img/Phone-call_icon-icons.com_51956.svg" alt="phone icon"><a href="tel:+996555927880">+996 (555) 92-78-80</a></div>
+                    <div class=phone><img class="phone-icon" src="./img/Phone-call_icon-icons.com_51956.svg"
+                            alt="phone icon"><a href="tel:+996555927880">+996 (555) 92-78-80</a></div>
                     <button class="callback style-btn" type="button" data-toggle="modal"
                         data-target="#exampleModal">Заказать звонок</button>
                 </div>
@@ -347,7 +348,7 @@
                         </a>
                     </div>
                 </div>
-                <button class="style-btn review-btn">Оставить отзыв</button>
+                <button class="style-btn review-btn" data-toggle="modal" data-target="#exampleModalCenter">Оставить отзыв</button>
             </div>
 
         </section>
@@ -370,13 +371,16 @@
             <div class="footer-social">
                 <div class="sns">
                     <div class="social">
-                        <a href="https://www.instagram.com/p/B874qyknKUS/?igshid=7ftjavs1ez0w" target="blank"><img src="./img/instagram.png" alt="instagram"></a>
+                        <a href="https://www.instagram.com/p/B874qyknKUS/?igshid=7ftjavs1ez0w" target="blank"><img
+                                src="./img/instagram.png" alt="instagram"></a>
                     </div>
                     <div class="social">
-                        <a href="https://facebook.com/ohrana.bishkek" target="blank"><img src="./img/facebook.png" alt="facebook"></a>
+                        <a href="https://facebook.com/ohrana.bishkek" target="blank"><img src="./img/facebook.png"
+                                alt="facebook"></a>
                     </div>
                     <div class="social">
-                        <a href="https://wa.me/996555927990" target="blank"><img src="./img/whatsapp.png" alt="whatsapp"></a>
+                        <a href="https://wa.me/996555927990" target="blank"><img src="./img/whatsapp.png"
+                                alt="whatsapp"></a>
                     </div>
                 </div>
                 <span class="map"><a href="#">Карта сайта</a> ©2020 <br> ОсОО "Безопасный город"</span>
@@ -389,6 +393,8 @@
             </div>
         </div>
     </footer>
+
+
 
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
@@ -433,10 +439,45 @@
             </div>
         </div>
     </div>
+
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Оставить отзыв</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1"></label>
+                            <input type="text" class="form-control reviewForm" id="reviewForm1" placeholder="Ваше имя">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1"></label>
+                            <input type="text" class="form-control reviewForm" id="reviewForm2" placeholder="Ваша компания">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1"></label>
+                            <textarea class="form-control reviewForm" id="reviewForm3" rows="3" placeholder="Оставить отзыв"></textarea>
+                        </div>
+                        </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="send-review-btn style-btn" style="width:100%">Отправить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="./node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
     <script src="./src/index.js"></script>
-</body>
+    </body>
 
-</html>
+    </html>

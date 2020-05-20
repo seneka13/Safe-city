@@ -7,27 +7,23 @@
 
 $(document).ready(function () {
 
-    $('.review-btn').click(function () {
-        Swal.fire({
-            showCancelButton: true,
-            title: 'Оставить отзыв',
-            html: '<input id="swal-input1" class="swal2-input" placeholder = "Ваше имя.." name = "name">' +
-                '<input id="swal-input1" class="swal2-input" placeholder = "Ваша компания.." name = "company">',
-            input: "textarea",
-            inputPlaceholder: "Оставтье ваш отызыв",
-            confirmButtonColor: "#61c50f",
-            cancelButtonColor: "gray",
-            confirmButtonText: 'Отправить',
-            cancelButtonText: 'Отменить'
-        }).then((result) => {
-            if (result.value) {
+    $('.send-review-btn').click(function () {
+        $('.reviewForm').each(function(i, item) {
+            if (!item.value) {
                 Swal.fire({
-                    text: 'Ваш отзыв успешно отправлен. После проверки администратором, он будет размещен на сайте!',
-                    icon: 'success',
-                    confirmButtonColor: "#61c50f"
-                })
-            }
-        })
+                    icon: 'error',
+                    title: 'Напишите отзыв',
+                    confirmButtonColor: "#61c50f",
+                    timer: 2000,
+                    width: '300px'
+                })} else {
+                    Swal.fire({
+                        text: 'Ваш отзыв успешно отправлен. После проверки администратором, он будет размещен на сайте!',
+                        icon: 'success',
+                        confirmButtonColor: "#61c50f"
+                    })
+                }
+        }) 
     })
 
 
