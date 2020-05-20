@@ -1,9 +1,3 @@
-// const inputForm = document.querySelectorAll('#exampleFormControlInput1');
-//     inputForm.some(function(item){
-//         console.log(item) 
-//     })
-
-
 
 $(document).ready(function () {
 
@@ -20,9 +14,13 @@ $(document).ready(function () {
                     Swal.fire({
                         text: 'Ваш отзыв успешно отправлен. После проверки администратором, он будет размещен на сайте!',
                         icon: 'success',
-                        confirmButtonColor: "#61c50f"
+                        confirmButtonColor: "#61c50f",
+                        timer: 2000,
                     })
                 }
+                setTimeout(() => {
+                    $('.close').trigger('click')
+                }, 2000);
         }) 
     })
 
