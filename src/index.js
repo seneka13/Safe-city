@@ -1,11 +1,6 @@
-// const inputForm = document.querySelectorAll('#exampleFormControlInput1');
-//     inputForm.some(function(item){
-//         console.log(item) 
-//     })
-
-
 
 $(document).ready(function () {
+<<<<<<< HEAD
     
     $('.review-btn').click(function () {
         Swal.fire({
@@ -21,13 +16,30 @@ $(document).ready(function () {
             cancelButtonText: 'Отменить'
         }).then((result) => {
             if (result.value) {
+=======
+
+    $('.send-review-btn').click(function () {
+        $('.reviewForm').each(function(i, item) {
+            if (!item.value) {
+>>>>>>> 9422cad4690513b3d03b08a28825a54205082b9e
                 Swal.fire({
-                    text: 'Ваш отзыв успешно отправлен. После проверки администратором, он будет размещен на сайте!',
-                    icon: 'success',
-                    confirmButtonColor: "#61c50f"
-                })
-            }
-        })
+                    icon: 'error',
+                    title: 'Напишите отзыв',
+                    confirmButtonColor: "#61c50f",
+                    timer: 2000,
+                    width: '300px'
+                })} else {
+                    Swal.fire({
+                        text: 'Ваш отзыв успешно отправлен. После проверки администратором, он будет размещен на сайте!',
+                        icon: 'success',
+                        confirmButtonColor: "#61c50f",
+                        timer: 2000,
+                    })
+                }
+                setTimeout(() => {
+                    $('.close').trigger('click')
+                }, 2000);
+        }) 
     })
 
     $(".nav-btn").click(function () {
