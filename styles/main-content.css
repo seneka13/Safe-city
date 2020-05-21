@@ -130,10 +130,6 @@ hr {
     margin: 0 50px 0 50px;
 }
 
-
-
-
-
 @media (max-width: 765px) {
     .slide__btn{
         width: 200px;
@@ -144,6 +140,12 @@ hr {
         text-transform: uppercase;
     }
 
+    .exp-info {
+        display: block;
+        margin: auto;
+        text-align: center;
+        height: auto;
+    }
 }
 
 #numbers {

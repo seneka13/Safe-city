@@ -6,7 +6,7 @@
 
 
 $(document).ready(function () {
-
+    
     $('.review-btn').click(function () {
         Swal.fire({
             showCancelButton: true,
@@ -14,7 +14,7 @@ $(document).ready(function () {
             html: '<input id="swal-input1" class="swal2-input" placeholder = "Ваше имя.." name = "name">' +
                 '<input id="swal-input1" class="swal2-input" placeholder = "Ваша компания.." name = "company">',
             input: "textarea",
-            inputPlaceholder: "Оставтье ваш отызыв",
+            inputPlaceholder: "Оставьте ваш отзыв",
             confirmButtonColor: "#61c50f",
             cancelButtonColor: "gray",
             confirmButtonText: 'Отправить',
@@ -29,7 +29,6 @@ $(document).ready(function () {
             }
         })
     })
-
 
     $(".nav-btn").click(function () {
         $('.nav-content').slideToggle()
@@ -77,7 +76,7 @@ $(document).ready(function () {
 
     $('.contact-btn').click(function(){
         Swal.fire({
-            html: '<p>Адресс: город Бишкек, ул. Горького, 142</p>'+
+            html: '<p>Адрес: город Бишкек, ул. Горького, 142</p>'+
             '<p>Email: safe.kg@mail.ru</p>'+
             '<p>Skype: anna.mdn</p>'+
             '<p>тел: +996(312) 90-88-07</p>'+
