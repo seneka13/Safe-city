@@ -4,6 +4,8 @@
 @import './business.css';
 @import './footer.css';
 @import '../src/stock/stock.css';
+@import '../src/apartment-security/appartment-security.css';
+@import '../src/house-security/house-security.css';
 
 
 :root {
