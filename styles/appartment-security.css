@@ -1,4 +1,4 @@
-.appartment__content{
+.appartment__content {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,16 +10,16 @@
   border-radius: 15px;
 }
 
-.appartment__title{
+.appartment__title {
   margin: 30px 0;
   font-weight: bold;
 }
 
-.appartment__subtitle{
+.appartment__subtitle {
   margin: 20px 0;
 }
 
-.table-subtitle{
+.table-subtitle {
   font-weight: bold;
 }
 
@@ -28,7 +28,7 @@
   height: 40px;
 }
 
-.appartment-table{
+.appartment-table {
   max-width: 100%;
   margin: 20px 0px;
 }
@@ -37,20 +37,22 @@
   font-weight: 600;
 }
 
-th, td {
+th,
+td {
   padding: 10px;
   text-align: center;
 }
+
 table ul {
   text-align: start;
 }
 
-td{
+td {
   width: 30%;
 }
 
 @media only screen and (max-width: 765px) {
-  .appartment__subtitle{
+  .appartment__subtitle {
     margin-left: 25px;
   }
 

@@ -17,13 +17,13 @@
     <header class="site-header">
         <div class="container">
             <div class="header-content">
-                <div class="logo"><a href="./index.html"><img src="./img/лого_охр_аг_БГ-removebg-preview.png"
+                <div class="logo"><a href="../index.html"><img src="./img/лого_охр_аг_БГ-removebg-preview.png"
                             alt="Logo"></a></div>
                 <nav class="header-nav">
                     <a href="">О компании</a>
-                    <a href="./src/stock/stock.html">Акции</a>
+                    <a href="./pages/stock.html">Акции</a>
                     <a href="">Частным лицам</a>
-                    <a href="./business.html">Бизнесу</a>
+                    <a href="">Бизнесу</a>
                     <button class="contact-btn">Контакты</button>
                 </nav>
                 <div class="phone-container">
@@ -35,25 +35,40 @@
                 <div class="language">Язык</div>
             </div>
         </div>
-        <nav class="site-nav">
-            <div class="container">
-                <div class="nav-dropdown">
-                    <p>Услуги охранного агентства <br>
-                        "Безопасный город"</p>
-                    <button class="nav-btn">
-                        <img class="nav-btn__img" src="./img/Menu_icon_2_icon-icons.com_71856.svg" alt="nav menu">
-                    </button>
-                </div>
-                <div class="nav-content">
-                    <a href="">Сигнализация Премиум класса</a>
-                    <a href="./src/apartment-security/appartment-security.html">Охрана квартиры</a>
-                    <a href="./src/house-security/house-security.html">Охрана дома</a>
-                    <a href="./business.html">Охрана бизнеса</a>
-                    <a href="">Охранная сигнализация</a>
-                    <a href="">Пожарная сигнализация</a>
-                    <a href="">Видеонаблюдение</a>
-                    <a href="">Домофон</a>
-                </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Услуги охранного агентства <br>
+                "Безопасный город"</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Сигнализация Премиум класса</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/appartment-security.html">Охрана квартиры</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/house-security.html">Охрана дома</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/business.html">Охрана бизнеса</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/safesignal.html">Охранная сигнализация</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./pages/fire-alarm.html">Пожарная сигнализация</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Видеонаблюдение</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Домофон</a>
+                    </li>
+                </ul>
             </div>
         </nav>
     </header>
@@ -425,11 +440,11 @@
                         <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ваше имя"
                             name="name">
                         <label for="exampleFormControlInput1"></label>
-                        <input type="number" class="form-control" id="exampleFormControlInput1"
-                            placeholder="Телефон" name="phone">
+                        <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Телефон"
+                            name="phone">
                         <label for="exampleFormControlInput1"></label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1"
-                            placeholder="Эл.почта" name="mail">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Эл.почта"
+                            name="mail">
                         <label for="exampleFormControlSelect1" style="margin-top: 20px">Выберите услугу:</label>
                         <select class="form-control" id="exampleFormControlSelect1">
                             <option>Охрана квартиры</option>
@@ -440,8 +455,7 @@
                             <option>Видеонаблюдение</option>
                             <option>Домофон</option>
                         </select>
-                        <button type="button" class="btn order-btn" data-toggle="modal"
-                            data-target="#exampleModalLong">
+                        <button type="button" class="btn order-btn" data-toggle="modal" data-target="#exampleModalLong">
                             Отправить
                         </button>
                     </form>
@@ -468,8 +482,7 @@
                     <form>
                         <div class="form-group">
                             <label for="exampleFormControlInput1"></label>
-                            <input type="text" class="form-control reviewForm" id="reviewForm1"
-                                placeholder="Ваше имя">
+                            <input type="text" class="form-control reviewForm" id="reviewForm1" placeholder="Ваше имя">
                         </div>
                         <div class="form-group">
                             <label for="exampleFormControlInput1"></label>
@@ -481,19 +494,19 @@
                             <textarea class="form-control reviewForm" id="reviewForm3" rows="3"
                                 placeholder="Оставить отзыв"></textarea>
                         </div>
-                        <button type="button" class="send-review-btn style-btn"
+                        <button type="submit" class="btn send-review-btn style-btn"
                             style="width:100%">Отправить</button>
                     </form>
                 </div>
             </div>
         </div>
     </div>
-
+    </div>
 
     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="./node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
-    <script src="./src/index.js"></script>
+    <script src="./dist/main.js"></script>
 </body>
 
 </html>

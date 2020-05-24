@@ -1,4 +1,4 @@
-.house__content{
+.house__content {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,16 +10,16 @@
   border-radius: 15px;
 }
 
-.house__title{
+.house__title {
   margin: 30px 0;
   font-weight: bold;
 }
 
-.house__subtitle{
+.house__subtitle {
   margin: 20px 0;
 }
 
-.table-subtitle{
+.table-subtitle {
   font-weight: bold;
 }
 
@@ -28,7 +28,7 @@
   height: 40px;
 }
 
-.house-table{
+.house-table {
   max-width: 40%;
   margin-bottom: 30px;
 }
@@ -37,6 +37,7 @@
   font-weight: 600;
 }
 
+<<<<<<< HEAD:src/house-security/house-security.css
 .table-responsive1 {
   display: flex;
   justify-content: center;
@@ -45,15 +46,20 @@
 }
 
 th, td {
+=======
+th,
+td {
+>>>>>>> 6861ec8ede2448f43ebe0a97ce021ad383ae0985:styles/house-security.css
   padding: 10px;
   text-align: center;
 }
+
 table ul {
   text-align: center;
   margin-top: 15px;
 }
 
-td{
+td {
   width: 30%;
 }
 
