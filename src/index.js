@@ -1,4 +1,3 @@
-
 $(document).ready(function () {
 
     $('.send-review-btn').click(function () {

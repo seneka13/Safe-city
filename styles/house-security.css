@@ -1,0 +1,64 @@
+.house__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.house__content img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.house__title {
+  margin: 30px 0;
+  font-weight: bold;
+}
+
+.house__subtitle {
+  margin: 20px 0;
+}
+
+.table-subtitle {
+  font-weight: bold;
+}
+
+.house__btn {
+  width: 100px;
+  height: 40px;
+}
+
+.house-table {
+  max-width: 40%;
+  margin-bottom: 30px;
+}
+
+.house__phone {
+  font-weight: 600;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+table ul {
+  text-align: center;
+  margin-top: 15px;
+}
+
+td {
+  width: 30%;
+}
+
+@media all and (max-width: 640px) {
+  table {
+    max-width: 100%;
+    overflow-x: none;
+  }
+
+  .house__subtitle {
+    margin: 25px;
+  }
+}
