@@ -37,6 +37,13 @@
   font-weight: 600;
 }
 
+.table-responsive1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  overflow-x: inherit;
+}
+
 th, td {
   padding: 10px;
   text-align: center;
@@ -50,7 +57,7 @@ td{
   width: 30%;
 }
 
-@media all and (max-width: 640px) {
+@media (max-width: 640px) {
   table {
     max-width: 100%;
     overflow-x: none;

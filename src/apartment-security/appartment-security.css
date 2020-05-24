@@ -31,7 +31,6 @@
 .appartment-table{
   max-width: 100%;
   margin: 20px 0px;
-  overflow-x: scroll;
 }
 
 .appartment__phone {
