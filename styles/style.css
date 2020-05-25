@@ -11,17 +11,19 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
-    --light: #f2fbfd;
+    --light: #e7f6fa;
     --darkback: #007090;
     --btncolor: #01A7C2;
     --titlecolor: #EAEBED;
     --backline: #A3BAC3;
+    --text-color: #383232;
 }
 
 body {
     margin: 0px;
     font-family: 'PT Sans', sans-serif;
     background: var(--light);
+    color: var(--text-color);
 }
 
 h1,
