@@ -13,52 +13,15 @@
 .house__title {
   margin: 30px 0;
   font-weight: bold;
+  text-align: center;
 }
 
 .house__subtitle {
   margin: 20px 0;
-}
-
-.table-subtitle {
-  font-weight: bold;
+  text-align: center;
 }
 
 .house__btn {
   width: 100px;
   height: 40px;
-}
-
-.house-table {
-  max-width: 40%;
-  margin-bottom: 30px;
-}
-
-.house__phone {
-  font-weight: 600;
-}
-
-th,
-td {
-  padding: 10px;
-  text-align: center;
-}
-
-table ul {
-  text-align: center;
-  margin-top: 15px;
-}
-
-td {
-  width: 30%;
-}
-
-@media all and (max-width: 640px) {
-  table {
-    max-width: 100%;
-    overflow-x: none;
-  }
-
-  .house__subtitle {
-    margin: 25px;
-  }
 }

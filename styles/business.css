@@ -14,39 +14,20 @@
 .business__title{
     margin: 30px 0;
     font-weight: bold;
+    text-align: center;
 }
 
 .business__subtitle{
     margin: 20px 0;
-}
-
-.table-subtitle{
     font-weight: bold;
+    text-align: center;
 }
 
 .business__btn {
-    width: 100px;
+    width: 70%;
     height: 40px;
 }
 
 .business__phone {
     font-weight: 600;
-}
-
-.business-table{
-    max-width: 100%;
-    margin: 20px 0px;
-    overflow-x: scroll;
-}
-
-th, td {
-    padding: 10px;
-    text-align: center;
-}
-table ul {
-    text-align: start;
-}
-
-td{
-    width: 30%;
 }

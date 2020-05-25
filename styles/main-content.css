@@ -1,16 +1,16 @@
 .first-slide {
     height: 100vh;
-    background: url(../img/slide1.jpg) bottom / cover no-repeat;
+    background: linear-gradient(45deg, rgba(118, 187, 226, 0.308),rgba(86, 75, 112, 0.39)), url(../img/slide1.jpg) bottom / cover no-repeat;
 }
 
 .second-slide {
     height: 100vh;
-    background: url(../img/slide2.jpg) center / cover no-repeat;
+    background: linear-gradient(45deg, rgba(107, 108, 109, 0.164),rgba(86, 75, 112, 0.39)), url(../img/slide2.jpg) center / cover no-repeat;
 }
 
 .third-slide {
     height: 100vh;
-    background: url(../img/slide3.jpg) center / cover no-repeat;
+    background: linear-gradient(45deg, rgba(118, 187, 226, 0.308),rgba(86, 75, 112, 0.39)), url(../img/slide3.jpg) bottom / cover no-repeat;
 }
 
 .first-slide__content {
@@ -168,17 +168,4 @@ hr {
 
 .prof-img {
     height: 220px;
-}
-
-#order {
-    background-color: var(--backline);
-}
-
-.text-roboto-light {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 1.2rem;
-}
-
-.row {
-    height: auto;
 }

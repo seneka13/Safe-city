@@ -10,11 +10,11 @@
 @import './fire-alarm.css';
 
 :root {
-    --light: #d8d2fa;
+    --light: #f2fbfd;
     --darkback: #333333;
     --btncolor: #61c50f;
-    --titlecolor: #77ff07;
-    --backline: #65798a;
+    --titlecolor: #ddf8d2;
+    --backline: #4b5050;
 }
 
 body {
@@ -42,6 +42,11 @@ a:hover{
     color: inherit;
     font-family: inherit;
 }
+
+ul{
+    text-align: start;
+}
+
 
 button {
     padding: 0;
@@ -75,6 +80,20 @@ button:focus {
 .contact-btn:hover{
     background-color: var(--light);
     color: var(--darkback);
+}
+
+.card{
+    text-align: center;
+    font-size: 12px;
+    height: 100%;
+}
+
+.card-title{
+    font-weight: bold;
+}
+
+.card-subtitle{
+    font-weight: bold;
 }
 
 
