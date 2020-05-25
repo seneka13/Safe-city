@@ -62,7 +62,9 @@ button {
 }
 
 .style-btn:hover {
-    opacity: 0.9;
+    background: var(--titlecolor);
+    border: 1px solid var(--btncolor);
+    color: var(--btncolor);
 }
 
 button:focus {

@@ -77,7 +77,7 @@ $(document).ready(function () {
             '<p>факс: +996(312) 90-11-20</p>'+
             '<p>моб: +996(707) 12-00-40</p>'+
             '<p>моб: +996(555) 92-78-80</p>',
-            confirmButtonColor: "#61c50f"
+            confirmButtonColor: "#01a7c2"
         })
     })
 })
