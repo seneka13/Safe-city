@@ -8,18 +8,19 @@
 @import './house-security.css';
 @import './safesignal.css';
 @import './fire-alarm.css';
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
     --light: #f2fbfd;
-    --darkback: #333333;
-    --btncolor: #61c50f;
-    --titlecolor: #ddf8d2;
-    --backline: #4b5050;
+    --darkback: #007090;
+    --btncolor: #01A7C2;
+    --titlecolor: #EAEBED;
+    --backline: #A3BAC3;
 }
 
 body {
     margin: 0px;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     background: var(--light);
 }
 
@@ -28,7 +29,6 @@ h2,
 h3,
 p {
     margin: 0px;
-    font-family: 'Roboto Condensed', sans-serif;
 }
 
 a {

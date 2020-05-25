@@ -1,6 +1,6 @@
 .first-slide {
     height: 100vh;
-    background: linear-gradient(45deg, rgba(118, 187, 226, 0.308),rgba(86, 75, 112, 0.39)), url(../img/slide1.jpg) bottom / cover no-repeat;
+    background: linear-gradient(45deg, rgba(118, 187, 226, 0.308),rgba(62, 55, 78, 0.39)), url(../img/slide1.jpg) bottom / cover no-repeat;
 }
 
 .second-slide {
@@ -10,7 +10,7 @@
 
 .third-slide {
     height: 100vh;
-    background: linear-gradient(45deg, rgba(118, 187, 226, 0.308),rgba(86, 75, 112, 0.39)), url(../img/slide3.jpg) bottom / cover no-repeat;
+    background: linear-gradient(45deg, rgba(27, 25, 25, 0.651), rgba(118, 187, 226, 0.308)), url(../img/slide3.jpg) bottom / cover no-repeat;
 }
 
 .first-slide__content {
