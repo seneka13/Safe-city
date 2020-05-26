@@ -6,14 +6,14 @@ $(document).ready(function () {
                 Swal.fire({
                     icon: 'error',
                     title: 'Напишите отзыв',
-                    confirmButtonColor: "#61c50f",
+                    confirmButtonColor: "#01A7C2",
                     timer: 2000,
                     width: '300px'
                 })} else {
                     Swal.fire({
                         text: 'Ваш отзыв успешно отправлен. После проверки администратором, он будет размещен на сайте!',
                         icon: 'success',
-                        confirmButtonColor: "#61c50f",
+                        confirmButtonColor: "#01A7C2",
                         timer: 2000,
                     })
                 }
@@ -35,7 +35,7 @@ $(document).ready(function () {
                 Swal.fire({
                     icon: 'error',
                     title: 'Заполните форму',
-                    confirmButtonColor: "#61c50f",
+                    confirmButtonColor: "#01A7C2",
                     timer: 2000,
                     width: '300px'
                 })
@@ -45,7 +45,7 @@ $(document).ready(function () {
                         icon: 'success',
                         title: 'Спасибо, заявка отправлена.',
                         text: 'В ближайшее время мы свяжемся с Вами для уточнения деталей.',
-                        confirmButtonColor: "#61c50f",
+                        confirmButtonColor: "#01A7C2",
                         timer: 2000,
                         width: '300px'
                     })
@@ -54,7 +54,7 @@ $(document).ready(function () {
                         icon: 'success',
                         title: 'Спасибо, заявка отправлена.',
                         text: 'В ближайшее время мы свяжемся с Вами для уточнения деталей.',
-                        confirmButtonColor: "#61c50f",
+                        confirmButtonColor: "#01A7C2",
                         timer: 2000,
                     })
                 }
@@ -77,7 +77,7 @@ $(document).ready(function () {
             '<p>факс: +996(312) 90-11-20</p>'+
             '<p>моб: +996(707) 12-00-40</p>'+
             '<p>моб: +996(555) 92-78-80</p>',
-            confirmButtonColor: "#61c50f"
+            confirmButtonColor: "#01a7c2"
         })
     })
 })

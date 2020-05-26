@@ -5,8 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="...">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
-        rel="stylesheet">
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../styles/style.css">
     <title>Охранное агентство Безопасный город</title>
@@ -16,13 +14,11 @@
     <header class="site-header">
         <div class="container">
             <div class="header-content">
-                <div class="logo"><a href="../index.html"><img src="../img/лого_охр_аг_БГ-removebg-preview.png"
-                    alt="Logo"></a></div>
                 <nav class="header-nav">
                     <a href="">О компании</a>
                     <a href="./stock.html">Акции</a>
                     <a href="">Частным лицам</a>
-                    <a href="./business.html">Бизнесу</a>
+                    <a href="">Бизнесу</a>
                     <button class="contact-btn">Контакты</button>
                 </nav>
                 <div class="phone-container">
@@ -34,9 +30,9 @@
                 <div class="language">Язык</div>
             </div>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Услуги охранного агентства <br>
-                        "Безопасный город"</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light header-navbar">
+            <div class="logo"><a href="../index.html"><img src="../img/лого_охр_аг_БГ-removebg-preview.png"
+                        alt="Logo"></a></div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -44,28 +40,37 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Сигнализация Премиум класса</a>
+                        <a class="nav-link" href="#">
+                            <img src="../img/navbar-icons/premium.svg" alt="premium">
+                            Сигнализация Премиум класса</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./appartment-security.html">Охрана квартиры</a>
+                        <a class="nav-link" href="./appartment-security.html">
+                            <img src="../img/navbar-icons/appartment.svg" alt="flat">Охрана квартиры</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./house-security.html">Охрана дома</a>
+                        <a class="nav-link" href="./house-security.html">
+                            <img src="../img/navbar-icons/house.svg" alt="house">Охрана дома</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="./business.html">Охрана бизнеса</a>
+                        <a class="nav-link active" href="./business.html">
+                            <img src="../img/navbar-icons/business.svg" alt="business">Охрана бизнеса</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./safesignal.html">Охранная сигнализация</a>
+                        <a class="nav-link" href="./safesignal.html">
+                            <img src="../img/navbar-icons/alarm.svg" alt="alarm">Охранная сигнализация</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./fire-alarm.html">Пожарная сигнализация</a>
+                        <a class="nav-link" href="./fire-alarm.html">
+                            <img src="../img/navbar-icons/fire.svg" alt="fire-alarm">Пожарная сигнализация</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Видеонаблюдение</a>
+                        <a class="nav-link" href="./video-monitoring.html">
+                            <img src="../img/navbar-icons/camera.svg" alt="camera">Видеонаблюдение</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Домофон</a>
+                        <a class="nav-link" href="./intercom.html">
+                            <img src="../img/navbar-icons/intercom.svg" alt="intercom">Домофон</a>
                     </li>
                 </ul>
             </div>
@@ -88,6 +93,7 @@
                         снимать с охраны охранную систему можно при помощи кода с клавиатуры, либо прямо из мобильного
                         приложения,
                         установленного в вашем смартфоне.</li>
+                        <br>
                     <li>Подключить охранную систему к круглосуточному мониторингу. Мониторинг- это значит, что ваша
                         охранная
                         система будет отправлять круглосуточно сообщения в наш «Центр мониторинга» и к вам на мобильное
@@ -97,6 +103,7 @@
                         охранной системе и вашей личной. Мониторинг позволяет вам быть в курсе всех сообщений от вашей
                         охранной
                         системы, таких как: «постановка на охрану», «снятие с охраны», «тревога» и другие.</li>
+                        <br>
                     <li>Подключить охранную систему к службе ГБР (Группе Быстрого Реагирования). ГБР – это мобильная
                         группа
                         вооруженной охраны, которая прибудет по сигналу «Тревога» к вашей недвижимости и произведет
@@ -104,202 +111,149 @@
                         нарушителя.</li>
                 </ol>
                 <h3 class="business__subtitle">Тарифы для бизнеса (павильоны, офисы до 55 кв.м)</h3>
-                <table class="business-table table-bordered table-responsive">
-                    <thead>
-                        <tr>
-                            <th scope="col" colspan="2">Охрана помещения
-                                без покупки сигнализации
-                            </th>
-                            <th scope="col">Охрана помещения с покупкой сигнализации</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Тариф
-                                «Мониторинг Бизнес» для павильонов
-                                и небольших офисов
-                                (квадратурой до 45 кв.м.)
-                                500 сом/мес
-                            </td>
-                            <td>Тариф
-                                «Безопасность бизнес»
-                                1500 сом/мес
-                            </td>
-                            <td>Тариф
-                                «Безопасность бизнес +»
-                                1000 сом/мес
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <span class="table-subtitle">Что входит:</span>
-                                <ul>
-                                    <li>Комплект охранной сигнализации в аренду</li>
-                                    <li>Управление через мобильное приложение</li>
-                                    <li>Обслуживание сигнализации</li>
-                                </ul>
-                            </td>
-                            <td>
-                                <span class="table-subtitle">Что входит:</span>
-                                <ul>
-                                    <li>Выезд службы ГБР по тревоге</li>
-                                    <li>Комплект охранной сигнализации в аренду</li>
-                                    <li>Управление через мобильное приложение</li>
-                                    <li>Обслуживание сигнализации</li>
-                                </ul>
-                            </td>
-                            <td>
-                                <span class="table-subtitle">Что входит:</span>
-                                <ul>
-                                    <li>Выезд службы ГБР по тревоге</li>
-                                    <li>Комплект охранной сигнализации в аренду</li>
-                                    <li>Обслуживание сигнализации</li>
-                                </ul>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <span class="table-subtitle">Что необходимо оплатить в день установки:</span>
-                                <ul>
-                                    <li>Установку сигнализации 1500 сом </li>
-                                    <li>Первый месяц услуги 500 сом</li>
-                                </ul>
-                            </td>
-                            <td>
-                                <span class="table-subtitle">Что необходимо оплатить в день установки:</span>
-                                <ul>
-                                    <li>Установку сигнализации 1500 сом </li>
-                                    <li>Первый месяц услуги 1500 сом</li>
-                                </ul>
-                            </td>
-                            <td>
-                                <span class="table-subtitle">Что необходимо оплатить в день установки:</span>
-                                <ul>
-                                    <li>Комплект охранной сигнализации</li>
-                                    <li>Установку сигнализации 1500 сом</li>
-                                    <li>Первый месяц услуги 1000 сом</li>
-                                </ul>
-                            </td>
-                        </tr>
-                    </tbody>
-                    <tfoot>
-                        <tr>
-                            <td>
-                                <button class="style-btn business__btn" type="button" data-toggle="modal"
-                                    data-target="#exampleModal">Заказать</button>
-                            </td>
-                            <td>
-                                <button class="style-btn business__btn" type="button" data-toggle="modal"
-                                    data-target="#exampleModal">Заказать</button>
-                            </td>
-                            <td>
-                                <button class="style-btn business__btn" type="button" data-toggle="modal"
-                                    data-target="#exampleModal">Заказать</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class='phone business__phone'><a href="tel:+996555927880"> Подробнее по тел:
-                                        +996 (555) 92-78-80</a></div>
-                            </td>
-                            <td>
-                                <div class='phone business__phone'><a href="tel:+996555927880"> Подробнее по тел:
-                                        +996 (555) 92-78-80</a></div>
-                            </td>
-                            <td>
-                                <div class='phone business__phone'><a href="tel:+996555927880"> Подробнее по тел:
-                                        +996 (555) 92-78-80</a></div>
-                            </td>
-                        </tr>
-                    </tfoot>
-                </table>
 
+                <div class="row">
+                    <div class="col-12 col-md-4 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Охрана помещения
+                                    без покупки сигнализации</h5>
+                                <p class="card-text">Тариф
+                                    «Мониторинг Бизнес» для павильонов
+                                    и небольших офисов
+                                    (квадратурой до 45 кв.м.)
+                                    500 сом/мес</p>
+                            </div>
+                            <span class="card-subtitle">Что входит:</span>
+                            <ul>
+                                <li>Комплект охранной сигнализации в аренду</li>
+                                <li>Управление через мобильное приложение</li>
+                                <li>Обслуживание сигнализации</li>
+                            </ul>
+                            <span class="card-subtitle">Что необходимо оплатить в день установки:</span>
+                            <ul>
+                                <li>Установку сигнализации 1500 сом </li>
+                                <li>Первый месяц услуги 500 сом</li>
+                            </ul>
+                            <div class="card-body">
+                                <button class="style-btn business__btn" type="button" data-toggle="modal"
+                                    data-target="#exampleModal">Заказать</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Охрана помещения
+                                    без покупки сигнализации</h5>
+                                <p class="card-text">Тариф
+                                    «Безопасность бизнес»
+                                    1500 сом/мес</p>
+                            </div>
+                            <span class="card-subtitle">Что входит:</span>
+                            <ul>
+                                <li>Выезд службы ГБР по тревоге</li>
+                                <li>Комплект охранной сигнализации в аренду</li>
+                                <li>Управление через мобильное приложение</li>
+                                <li>Обслуживание сигнализации</li>
+                            </ul>
+                            </ul>
+                            <span class="card-subtitle">Что необходимо оплатить в день установки:</span>
+                            <ul>
+                                <li>Установку сигнализации 1500 сом </li>
+                                <li>Первый месяц услуги 1500 сом</li>
+                            </ul>
+                            <div class="card-body">
+                                <button class="style-btn business__btn" type="button" data-toggle="modal"
+                                    data-target="#exampleModal">Заказать</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Охрана помещения с покупкой сигнализации</h5>
+                                <p class="card-text">Тариф
+                                    «Безопасность бизнес +»
+                                    1000 сом/мес</p>
+                            </div>
+                            <span class="card-subtitle">Что входит:</span>
+                            <ul>
+                                <li>Выезд службы ГБР по тревоге</li>
+                                <li>Комплект охранной сигнализации в аренду</li>
+                                <li>Обслуживание сигнализации</li>
+                            </ul>
+                            <span class="card-subtitle">Что необходимо оплатить в день установки:</span>
+                            <ul>
+                                <li>Комплект охранной сигнализации</li>
+                                <li>Установку сигнализации 1500 сом</li>
+                                <li>Первый месяц услуги 1000 сом</li>
+                            </ul>
+                            <div class="card-body">
+                                <button class="style-btn business__btn" type="button" data-toggle="modal"
+                                    data-target="#exampleModal">Заказать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <img src="../img/signalizacia.jpg" alt="сигнализация">
-
                 <h3 class="business__subtitle">Тарифы для бизнеса (площадью от 60 до 100 кв.м)</h3>
-                <table class="business-table table-bordered table-responsive">
-                    <thead>
-                        <tr>
-                            <th scope="col">Охрана помещения
-                                без покупки сигнализации
-                            </th>
-                            <th scope="col">Охрана помещения с покупкой сигнализации</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Тариф
-                                «Безопасность 100»
-                                3000 сом/мес
-                            </td>
-                            <td>Тариф
-                                «Безопасность бизнес 100+»
-                                2500 сом/мес
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <span class="table-subtitle">Что входит:</span>
-                                <ul>
-                                    <li>Выезд службы ГБР по тревог</li>
-                                    <li>Комплект охранной сигнализации в аренду</li>
-                                    <li>Управление через мобильное приложение</li>
-                                    <li>Обслуживание сигнализации</li>
-                                </ul>
-                            </td>
-                            <td>
-                                <span class="table-subtitle">Что входит:</span>
-                                <ul>
-                                    <li>Выезд службы ГБР по тревоге</li>
-                                    <li>Управление через мобильное приложение</li>
-                                    <li>Обслуживание сигнализации</li>
-                                </ul>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <span class="table-subtitle">Что необходимо оплатить в день установки:</span>
-                                <ul>
-                                    <li>Установку сигнализации 3000 сом </li>
-                                </ul>
-                            </td>
-                            <td>
-                                <span class="table-subtitle">Что необходимо оплатить в день установки:</span>
-                                <ul>
-                                    <li>Комплект охранной сигнализации</li>
-                                    <li>Установку сигнализации 1500 сом </li>
-                                    <li>Первый месяц услуги 2500 сом</li>
-                                </ul>
-                            </td>
-                        </tr>
-                    </tbody>
-                    <tfoot>
-                        <tr>
-                            <td>
+                <div class="row">
+                    <div class="col-12 col-md-6 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Охрана помещения
+                                    без покупки сигнализации</h5>
+                                <p class="card-text">Тариф
+                                    «Безопасность 100»
+                                    3000 сом/мес</p>
+                            </div>
+                            <span class="card-subtitle">Что входит:</span>
+                            <ul>
+                                <li>Выезд службы ГБР по тревог</li>
+                                <li>Комплект охранной сигнализации в аренду</li>
+                                <li>Управление через мобильное приложение</li>
+                                <li>Обслуживание сигнализации</li>
+                            </ul>
+                            <span class="card-subtitle">Что необходимо оплатить в день установки:</span>
+                            <ul>
+                                <li>Установку сигнализации 1500 сом </li>
+                                <li>Первый месяц услуги 1500 сом</li>
+                            </ul>
+                            <div class="card-body">
                                 <button class="style-btn business__btn" type="button" data-toggle="modal"
                                     data-target="#exampleModal">Заказать</button>
-                            </td>
-                            <td>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Охрана помещения с покупкой сигнализации</h5>
+                                <p class="card-text">Тариф
+                                    «Безопасность бизнес 100+»
+                                    2500 сом/мес</p>
+                            </div>
+                            <span class="card-subtitle">Что входит:</span>
+                            <ul>
+                                <li>Выезд службы ГБР по тревоге</li>
+                                <li>Управление через мобильное приложение</li>
+                                <li>Обслуживание сигнализации</li>
+                            </ul>
+                            <span class="card-subtitle">Что необходимо оплатить в день установки:</span>
+                            <ul>
+                                <li>Комплект охранной сигнализации</li>
+                                <li>Установку сигнализации 1500 сом </li>
+                                <li>Первый месяц услуги 2500 сом</li>
+                            </ul>
+                            <div class="card-body">
                                 <button class="style-btn business__btn" type="button" data-toggle="modal"
                                     data-target="#exampleModal">Заказать</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class='phone business__phone'><a href="tel:+996555927880"> Подробнее по тел:
-                                        +996 (555) 92-78-80</a></div>
-                            </td>
-                            <td>
-                                <div class='phone business__phone'><a href="tel:+996555927880"> Подробнее по тел:
-                                        +996 (555) 92-78-80</a></div>
-                            </td>
-                        </tr>
-                    </tfoot>
-                </table>
-
-
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
     </main>
 
     <footer class="site-footer">
@@ -320,15 +274,19 @@
                 <div class="sns">
                     <div class="social">
                         <a href="https://www.instagram.com/p/B874qyknKUS/?igshid=7ftjavs1ez0w" target="blank"><img
-                                src="../img/instagram.png" alt="instagram"></a>
+                                src="../img/social-icons/instagram.svg" alt="instagram"></a>
                     </div>
                     <div class="social">
-                        <a href="https://facebook.com/ohrana.bishkek" target="blank"><img src="../img/facebook.png"
+                        <a href="https://facebook.com/ohrana.bishkek" target="blank"><img src="../img/social-icons/facebook.svg"
                                 alt="facebook"></a>
                     </div>
                     <div class="social">
-                        <a href="https://wa.me/996555927990" target="blank"><img src="../img/whatsapp.png"
+                        <a href="https://wa.me/996555927990" target="blank"><img src="../img/social-icons/whatsapp.svg"
                                 alt="whatsapp"></a>
+                    </div>
+                    <div class="social">
+                        <a href="https://t.me/safecity312" target="blank"><img src="../img/social-icons/telegram.svg"
+                                alt="telegram"></a>
                     </div>
                 </div>
                 <span class="map"><a href="#">Карта сайта</a> ©2020 <br> ОсОО "Безопасный город"</span>

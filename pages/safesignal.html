@@ -5,8 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="...">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
-        rel="stylesheet">
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../styles/style.css">
     <title>Охранное агентство Безопасный город</title>
@@ -16,13 +14,11 @@
     <header class="site-header">
         <div class="container">
             <div class="header-content">
-                <div class="logo"><a href="../index.html"><img src="../img/лого_охр_аг_БГ-removebg-preview.png"
-                    alt="Logo"></a></div>
                 <nav class="header-nav">
                     <a href="">О компании</a>
                     <a href="./stock.html">Акции</a>
                     <a href="">Частным лицам</a>
-                    <a href="./business.html">Бизнесу</a>
+                    <a href="">Бизнесу</a>
                     <button class="contact-btn">Контакты</button>
                 </nav>
                 <div class="phone-container">
@@ -34,9 +30,9 @@
                 <div class="language">Язык</div>
             </div>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Услуги охранного агентства <br>
-                        "Безопасный город"</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light header-navbar">
+            <div class="logo"><a href="../index.html"><img src="../img/лого_охр_аг_БГ-removebg-preview.png"
+                        alt="Logo"></a></div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -44,28 +40,37 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Сигнализация Премиум класса</a>
+                        <a class="nav-link" href="#">
+                            <img src="../img/navbar-icons/premium.svg" alt="premium">
+                            Сигнализация Премиум класса</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./appartment-security.html">Охрана квартиры</a>
+                        <a class="nav-link" href="./appartment-security.html">
+                            <img src="../img/navbar-icons/appartment.svg" alt="flat">Охрана квартиры</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./house-security.html">Охрана дома</a>
+                        <a class="nav-link" href="./house-security.html">
+                            <img src="../img/navbar-icons/house.svg" alt="house">Охрана дома</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./business.html">Охрана бизнеса</a>
+                        <a class="nav-link" href="./business.html">
+                            <img src="../img/navbar-icons/business.svg" alt="business">Охрана бизнеса</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-lin active" href="./safesignal.html">Охранная сигнализация</a>
+                        <a class="nav-link active" href="./safesignal.html">
+                            <img src="../img/navbar-icons/alarm.svg" alt="alarm">Охранная сигнализация</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./fire-alarm.html">Пожарная сигнализация</a>
+                        <a class="nav-link" href="./fire-alarm.html">
+                            <img src="../img/navbar-icons/fire.svg" alt="fire-alarm">Пожарная сигнализация</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Видеонаблюдение</a>
+                        <a class="nav-link" href="./video-monitoring.html">
+                            <img src="../img/navbar-icons/camera.svg" alt="camera">Видеонаблюдение</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Домофон</a>
+                        <a class="nav-link" href="#">
+                            <img src="../img/navbar-icons/intercom.svg" alt="intercom">Домофон</a>
                     </li>
                 </ul>
             </div>
@@ -77,107 +82,69 @@
             <div class="safesignal__content">
                 <h1 class="safesignal__title">Охранная сигнализация</h1>
                 <img src="../img/Охранная сигнализация.jpg" alt="сигнализация">
-                <p class="safesignal__text"><strong>Охранная сигнализация</strong> для помещений представлена на нашем рынке множествами производителей из разных стан.  Наша компания рекомендует своим клиентам охранные системы таких производителей как C.Nord (Россия), PIMA (Израиль) и Jablotron – система Премиум класса (Чехия).</p>
+                <p class="safesignal__text"><strong>Охранная сигнализация</strong> для помещений представлена на нашем
+                    рынке множествами производителей из разных стан. Наша компания рекомендует своим клиентам охранные
+                    системы таких производителей как C.Nord (Россия), PIMA (Израиль) и Jablotron – система Премиум
+                    класса (Чехия).</p>
                 <h3 class="safesignal__subtitle">Как защитить вашу собственность от проникновения посторонних лиц?</h3>
                 <ul>
                     <strong>Охранные системы собираются в зависимости от потребности пользователя и состоят из:</strong>
-                    <li><b>Контрольной панели</b> – головное устройство, которое получает сигналы от датчиков и других устройств и отправляет эти сигналы пользователям;
+                    <li><b>Контрольной панели</b> – головное устройство, которое получает сигналы от датчиков и других
+                        устройств и отправляет эти сигналы пользователям;
                     </li>
                     <li><b>Охранных датчиков</b> – это как правило датчики открытия двери/окна и датчики движения;
                     </li>
-                    <li><b>Сирены</b> – это звуковое/светозвуковое устройство, издающее сигнал при проникновении посторонних лиц;</li>
-                    <li><b>Клавиатуры/Брелока</b> – устройства, позволяющие пользователям ставить на охрану систему или снимать ее с охраны;</li>
-                    <li><b>Lополнительных датчиков</b> –датчик дыма и тепла, датчик протечки воды, датчик утечки газа, датчик температуры, датчик охраны периметра и многие другие.</li>
+                    <li><b>Сирены</b> – это звуковое/светозвуковое устройство, издающее сигнал при проникновении
+                        посторонних лиц;</li>
+                    <li><b>Клавиатуры/Брелока</b> – устройства, позволяющие пользователям ставить на охрану систему или
+                        снимать ее с охраны;</li>
+                    <li><b>Lополнительных датчиков</b> –датчик дыма и тепла, датчик протечки воды, датчик утечки газа,
+                        датчик температуры, датчик охраны периметра и многие другие.</li>
                 </ul>
-                <h5 class="safesignal__subtitle">В данной таблице представлены <strong>основные различия проводных и беспроводных систем:</strong>
+                <h5 class="safesignal__subtitle">Cсновные различия проводных и беспроводных систем:
                 </h5>
-                <table class="safesignal-table table-bordered table-responsive">
-                    <thead>
-                        <tr>
-                            <th scope="col">Особенности
-                            </th>
-                            <th scope="col">Проводные охранные системы</th>
-                            <th scope="col">Беспроводные охранные системы</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th>Соединение датчиков и головного устройства (контрольной панели) с датчиками
-                            </th>
-                            <td>По проводу
-                            </td>
-                            <td>По радиоканалу (без провода)
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>
-                                Особенности обслуживания
-                            </th>
-                            <td>
-                                Нет особенностей
-                            </td>
-                            <td>
-                                Замена батареек в датчиках через 1 год (3 года)
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>
-                                Особенности установки
-                            </th>
-                            <td>
-                                Протяжка проводов во все помещения, где будут установлены датчики. Стоимость установки
-                                дороже.
-                            </td>
-                            <td>
-                                Датчики устанавливаются без протяжки провода. Стоимость установки дешевле
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>
-                                Время установки
-                            </th>
-                            <td>
-                                Время установки
-                                Устанавливается от 4 часов и выше
-                            </td>
-                            <td>
-                                Устанавливается  за 1-2 часа
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>
-                                Стоимость оборудования
-                            </th>
-                            <td>
-                                Стоимость оборудования - дешевле
-                            </td>
-                            <td>
-                                Стоимость оборудования - дороже
-                            </td>
-                        </tr>
-                    </tbody>
-                    <tfoot>
-                        <tr>
-                            <td>
-
-                            </td>
-                            <td>
+                <div class="row">
+                    <div class="col-12 col-md-6 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Проводные охранные системы</h5>
+                            </div>
+                            <ul>
+                                <li>Соединение датчиков и головного устройства (контрольной панели) с датчиками <b>по
+                                        проводу</b></li>
+                                <li>Нет особенностей обслуживания</li>
+                                <li>Особенность установки - протяжка проводов во все помещения, где будут установлены
+                                    датчики. Стоимость установки
+                                    дороже.</li>
+                                <li>Время установки от 4 часов и выше</li>
+                                <li>Стоимость оборудования - дешевле</li>
+                            </ul>
+                            <div class="card-body">
                                 <button class="style-btn business__btn" type="button" data-toggle="modal"
                                     data-target="#exampleModal">Заказать</button>
-                            </td>
-                            <td>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Беспроводные охранные системы</h5>
+                            </div>
+                            <ul>
+                                <li>Соединение датчиков и головного устройства (контрольной панели) с датчиками <b>по радиоканалу (без провода)</b></li>
+                                <li>Замена батареек в датчиках через 1 год (3 года)</li>
+                                <li>Особенность установки - датчики устанавливаются без протяжки провода. Стоимость установки дешевле</li>
+                                <li>Время установки 1-2 часа</li>
+                                <li>Стоимость оборудования - дороже</li>
+                            </ul>
+                            <div class="card-body">
                                 <button class="style-btn business__btn" type="button" data-toggle="modal"
                                     data-target="#exampleModal">Заказать</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="3">
-                                <div class='phone safesignal__phone'><a href="tel:+996555927880"> Подробнее по тел:
-                                        +996 (555) 92-78-80</a></div>
-                            </td>
-                        </tr>
-                    </tfoot>
-                </table>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
             </div>
         </div>
     </main>
@@ -200,15 +167,19 @@
                 <div class="sns">
                     <div class="social">
                         <a href="https://www.instagram.com/p/B874qyknKUS/?igshid=7ftjavs1ez0w" target="blank"><img
-                                src="../img/instagram.png" alt="instagram"></a>
+                                src="../img/social-icons/instagram.svg" alt="instagram"></a>
                     </div>
                     <div class="social">
-                        <a href="https://facebook.com/ohrana.bishkek" target="blank"><img src="../img/facebook.png"
+                        <a href="https://facebook.com/ohrana.bishkek" target="blank"><img src="../img/social-icons/facebook.svg"
                                 alt="facebook"></a>
                     </div>
                     <div class="social">
-                        <a href="https://wa.me/996555927990" target="blank"><img src="../img/whatsapp.png"
+                        <a href="https://wa.me/996555927990" target="blank"><img src="../img/social-icons/whatsapp.svg"
                                 alt="whatsapp"></a>
+                    </div>
+                    <div class="social">
+                        <a href="https://t.me/safecity312" target="blank"><img src="../img/social-icons/telegram.svg"
+                                alt="telegram"></a>
                     </div>
                 </div>
                 <span class="map"><a href="#">Карта сайта</a> ©2020 <br> ОсОО "Безопасный город"</span>

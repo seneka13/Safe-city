@@ -6,58 +6,23 @@
 }
 
 .appartment__content img {
-  width: 100%;
+  width: 90%;
   border-radius: 15px;
 }
 
 .appartment__title {
   margin: 30px 0;
   font-weight: bold;
+  text-align: center;
 }
 
 .appartment__subtitle {
   margin: 20px 0;
-}
-
-.table-subtitle {
-  font-weight: bold;
-}
-
-.appartment__btn {
-  width: 100px;
-  height: 40px;
-}
-
-.appartment-table {
-  max-width: 100%;
-  margin: 20px 0px;
-}
-
-.appartment__phone {
-  font-weight: 600;
-}
-
-th,
-td {
-  padding: 10px;
   text-align: center;
 }
 
-table ul {
-  text-align: start;
-}
-
-td {
-  width: 30%;
-}
-
-@media only screen and (max-width: 765px) {
-  .appartment__subtitle {
-    margin-left: 25px;
-  }
-
-  li {
-    text-align: justify;
-    margin-right: 10px;
-  }
+.appartment__btn {
+  width: 70%;
+  height: 40px;
+  font-size: 15px;
 }
