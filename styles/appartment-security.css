@@ -6,7 +6,7 @@
 }
 
 .appartment__content img {
-  width: 100%;
+  width: 90%;
   border-radius: 15px;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .appartment__btn {
-  width: 100px;
+  width: 70%;
   height: 40px;
+  font-size: 15px;
 }
-

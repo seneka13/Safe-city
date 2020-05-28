@@ -1,0 +1,64 @@
+.prem-alarm__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.prem-alarm__content img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.prem-alarm__info{
+    text-align: center;
+    margin: 20px;
+}
+
+.prem-alarm__title {
+    margin: 30px 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.prem-alarm__text {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.prem-alarm__subtitle {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.prem-alarm__btn {
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    margin: 0px 10px;
+}
+
+.prem-alarm__description{
+    display: flex;
+}
+.prem-alarm__description img{
+    width: 30%;
+    margin-right: 20px;
+}
+
+.prem-alarm__btns{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media(max-width: 765px) {
+    .prem-alarm__description{
+        display: block;
+    }
+
+    .prem-alarm__description img{
+        width: 100%;
+    }
+}

@@ -35,7 +35,8 @@
 }
 
 .footer-info{
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-nav {
@@ -61,16 +62,27 @@
   margin-bottom: 15px;
 }
 
+.footer__address{
+  width: 50%;
+}
 
-.map {
-  font-size: 100%;
+.footer__phones {
+  width: 50%;
   text-align: end;
 }
 
-.sns {
+
+.map {
+  margin-top: 20px;
+  font-size: 100%;
+  text-align: center;
+}
+
+.social-icons {
   display: flex;
   justify-content: flex-start;
   width: 30%;
+  margin-top: 15px;
 }
 
 .social {
@@ -79,5 +91,8 @@
 
 .social img {
   width: 20px;
-  
+}
+
+.social img:hover{
+  opacity: 0.5;
 }
