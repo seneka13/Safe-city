@@ -16,10 +16,9 @@
         <div class="container">
             <div class="header-content">
                 <nav class="header-nav">
-                    <a href="">О компании</a>
+                    <a href="../index.html">О компании</a>
                     <a href="./stock.html">Акции</a>
-                    <a href="">Частным лицам</a>
-                    <a href="">Бизнесу</a>
+                    <a href="./privacy.html">Конфиденциальность</a>
                     <button class="contact-btn">Контакты</button>
                 </nav>
                 <div class="phone-container">
@@ -144,7 +143,7 @@
         </div>
     </main>
 
-    <footer class="site-footer">
+    <footer class="site-footer mt-5">
         <div class="container">
             <div class="footer-line"></div>
             <div class="footer-contact">
@@ -198,8 +197,7 @@
         </div>
     </footer>
 
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -210,17 +208,17 @@
                 </div>
                 <div class="modal-body">
                     <form class="modal-form">
-                        <label for="exampleFormControlInput1"></label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ваше имя"
+                        <label for="form-name"></label>
+                        <input type="text" class="form-control" id="form-name" placeholder="Ваше имя"
                             name="name">
-                        <label for="exampleFormControlInput1"></label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Телефон"
+                        <label for="form-number"></label>
+                        <input type="number" class="form-control" id="form-number" placeholder="Телефон"
                             name="phone">
-                        <label for="exampleFormControlInput1"></label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Эл.почта"
+                        <label for="form-mail"></label>
+                        <input type="email" class="form-control" id="form-mail" placeholder="Эл.почта"
                             name="mail">
-                        <label for="exampleFormControlSelect1" style="margin-top: 20px">Выберите услугу:</label>
-                        <select class="form-control" id="exampleFormControlSelect1">
+                        <label for="form-selector" style="margin-top: 20px">Выберите услугу:</label>
+                        <select class="form-control" id="form-selector">
                             <option>Охрана квартиры</option>
                             <option>Охрана дома</option>
                             <option>Охрана бизнеса</option>
@@ -229,13 +227,13 @@
                             <option>Видеонаблюдение</option>
                             <option>Домофон</option>
                         </select>
-                        <button type="button" class="btn order-btn" data-toggle="modal" data-target="#exampleModalLong">
+                        <button type="submit" class="btn order-btn" data-toggle="modal" data-target="#exampleModalLong">
                             Отправить
                         </button>
                     </form>
                 </div>
                 <div class="modal-footer">
-                    <p class="oferta">Нажимая "Отправить" вы принимаете <a href="">Условия обработки персональных
+                    <p class="oferta">Нажимая "Отправить" вы принимаете <a href="./privacy.html">Условия обработки персональных
                             данных</a></p>
                 </div>
             </div>

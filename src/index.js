@@ -70,14 +70,15 @@ $(document).ready(function () {
 
     $('.contact-btn').click(function(){
         Swal.fire({
-            html: '<p>Адресс: город Бишкек, ул. Горького, 142</p>'+
+            html: 
+            '<p>Адресс: город Бишкек, ул. Горького, 142</p>'+
             '<p>Email: safe.kg@mail.ru</p>'+
             '<p>Skype: anna.mdn</p>'+
             '<p>тел: +996(312) 90-88-07</p>'+
             '<p>факс: +996(312) 90-11-20</p>'+
             '<p>моб: +996(707) 12-00-40</p>'+
             '<p>моб: +996(555) 92-78-80</p>',
-            confirmButtonColor: "#01a7c2"
+            confirmButtonColor: "#01a7c2red"
         })
     })
 })

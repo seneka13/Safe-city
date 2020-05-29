@@ -1,0 +1,29 @@
+.privacy__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.privacy__content img {
+    width: 50%;
+    border-radius: 15px;
+}
+
+.privacy__title {
+    margin: 30px 0;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+
+.privacy__subtitle {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.privacy__text {
+    margin-bottom: 20px;
+    text-align: justify;
+}

@@ -27,10 +27,6 @@
 }
 
 .safesignal__btn {
-    width: 100px;
+    width: 60%;
     height: 40px;
-}
-
-.safesignal__phone {
-    font-weight: 600;
 }

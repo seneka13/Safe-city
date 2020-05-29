@@ -12,14 +12,15 @@
 @import './video-monitoring.css';
 @import './intercom.css';
 @import './prem-alarm.css';
+@import './privacy.css';
 
 :root {
-    --light: #e7f6fa;
+    --light: #e8eeee;
     --darkback: #007090;
     --btncolor: #01A7C2;
     --titlecolor: #EAEBED;
     --backline: #A3BAC3;
-    --text-color: #383232;
+    --text-color: #6e6e6e;
     --btn-txt-color: #f9f9f9;
 }
 

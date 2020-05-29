@@ -29,13 +29,9 @@
 }
 
 .intercom__btn {
-  width: 100px;
+  width: 60%;
   height: 40px;
   font-size: 15px;
-}
-
-.intercom__phone {
-  font-weight: 600;
 }
 
 @media (max-width: 992px) {

@@ -113,24 +113,6 @@ hr {
     background-color: var(--backline);
 }
 
-.exp-background {
-    background: var(--backline);
-}
-
-.exp-info {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-    height: 150px;
-}
-
-.exp-title {
-    font-weight: bold;
-    font-size: 200%;
-    margin: 0 50px 0 50px;
-}
-
 @media (max-width: 765px) {
     .slide__btn {
         width: 200px;
@@ -140,28 +122,8 @@ hr {
         left: 25%;
         text-transform: uppercase;
     }
-
-    .exp-info {
-        height: auto;
-        margin: 0px 74px 0px 72px;
-    }
-
-    .exp-title {
-        margin-bottom: 25px;
-    }
-}
-
-#numbers {
-    height: 100px;
-    background-color: var(--backline);
-}
-
-.number_plus {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 26px;
 }
 
 .profit {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 2.0rem;
+    font-size: 32px;
 }

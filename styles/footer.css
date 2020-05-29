@@ -6,15 +6,6 @@
   padding: 40px 0px;
 }
 
-.some-interesting {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 120px;
-  color: var(--light);
-  position: relative;
-}
-
 .footer-contact {
   display: flex;
   justify-content: space-between;
@@ -45,15 +36,6 @@
 
 .footer-social-links {
   display: flex;
-}
-
-.footer-social-links a {
-  background-position: center;
-  background-repeat: no-repeat;
-  border: none;
-  height: 24px;
-  transition: opacity .15s ease-in-out;
-  width: 24px;
 }
 
 .footer-social {
