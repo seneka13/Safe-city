@@ -127,3 +127,22 @@ hr {
 .profit {
     font-size: 32px;
 }
+
+.blag {
+    width: 40%;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.thanks {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sertif {
+    width: 19.7%;
+    border: 2px solid white;
+    border-radius: 5px;
+}
