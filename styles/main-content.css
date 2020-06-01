@@ -113,17 +113,6 @@ hr {
     background-color: var(--backline);
 }
 
-@media (max-width: 765px) {
-    .slide__btn {
-        width: 200px;
-        height: 50px;
-        position: absolute;
-        bottom: 20px;
-        left: 25%;
-        text-transform: uppercase;
-    }
-}
-
 .profit {
     font-size: 32px;
 }
@@ -145,4 +134,32 @@ hr {
     width: 19.7%;
     border: 2px solid white;
     border-radius: 5px;
+}
+
+.carousel__btn {
+    text-align: center;
+}
+
+.trust-img img {
+    height: 150px;
+}
+
+@media (max-width: 765px) {
+    .slide__btn {
+        width: 200px;
+        height: 50px;
+        position: absolute;
+        bottom: 20px;
+        left: 25%;
+        text-transform: uppercase;
+    }
+
+    .blag1 {
+        width: 225px;
+        height: 270px;
+    }
+
+    .trust-img img {
+        height: 150px;
+    }
 }
