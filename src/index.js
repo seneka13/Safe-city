@@ -81,4 +81,12 @@ $(document).ready(function () {
             confirmButtonColor: "#01a7c2red"
         })
     })
+
+    $('a [href*="#about_us"]').click(function() {
+        $page.animate({
+            scrollDown: $($.attr(this, 'href'))
+        .offset().down
+        }, 400);
+        return false;
+    });
 })
