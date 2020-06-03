@@ -26,8 +26,17 @@
 }
 
 .fire-alarm__info {
-    display: flex;
+    display: block;
     margin: 0px 0px 30px 0px;
+}
+
+.fire-alarm__ul {
+    margin-top: 75px;
+}
+
+.fire-alarm__btn {
+    margin-top: 107px;
+    width: 86%;
 }
 
 @media (max-width: 992px) {
