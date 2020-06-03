@@ -8,6 +8,14 @@ $(document).ready(function () {
         e.preventDefault();
     });
 
+
+    $('.scroll-map').on('click', function (e) {
+        $('html,body').stop().animate({
+            scrollTop: $('#header').offset().top
+        }, 1000);
+        e.preventDefault();
+    });
+
     $('.send-review-btn').click(function () {
         $('.reviewForm').each(function (i, item) {
             if (!item.value) {
@@ -31,12 +39,6 @@ $(document).ready(function () {
             }, 2000);
         })
     })
-
-
-    $(".nav-btn").click(function () {
-        $('.nav-content').slideToggle()
-    });
-
 
     $('.order-btn').click(function () {
         $('#exampleFormControlInput1').each(function (i, item) {

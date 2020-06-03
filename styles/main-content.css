@@ -35,6 +35,10 @@
     font-size: 40px;
 }
 
+.third-slide__content p {
+    margin-bottom: 20px;
+}
+
 .slide__title {
     font-size: 400%;
     font-weight: bolder;
@@ -74,6 +78,10 @@ hr {
 .about_us {
     margin: 30px 0 20px;
     text-align: center;
+}
+
+.prof-img img {
+    width: 150px;
 }
 
 .media-review {
