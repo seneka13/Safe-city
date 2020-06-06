@@ -152,6 +152,11 @@ hr {
     height: 150px;
 }
 
+.carousel__img img {
+    max-width: 100%;
+    height: auto;
+}
+
 @media (max-width: 765px) {
     .slide__btn {
         width: 200px;
