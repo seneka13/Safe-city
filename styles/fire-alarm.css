@@ -6,7 +6,7 @@
 }
 
 .fire-alarm__content img {
-    max-width: 100%;
+    width: 100%;
     border-radius: 15px;
 }
 
@@ -39,7 +39,8 @@
 }
 
 .fire-alarm__btn {
-    width: 86%;
+    width: 60%;
+    height: 40px;
 }
 
 .fire-alarm__img {

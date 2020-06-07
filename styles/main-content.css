@@ -125,23 +125,15 @@ hr {
     font-size: 32px;
 }
 
-.blag {
-    width: 40%;
+.blag__img {
+    width: 400px;
+    height: 270px;
+    margin: auto;
+}
+
+.blag__img img {
+    max-width: 100%;
     height: auto;
-    border: 2px solid white;
-    border-radius: 5px;
-}
-
-.thanks {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.sertif {
-    width: 19.7%;
-    border: 2px solid white;
-    border-radius: 5px;
 }
 
 .carousel__btn {
@@ -157,6 +149,12 @@ hr {
     height: auto;
 }
 
+.carousel__img {
+    width: 225px;
+    height: 270px;
+    margin: auto;
+}
+
 @media (max-width: 765px) {
     .slide__btn {
         width: 200px;
@@ -167,9 +165,20 @@ hr {
         text-transform: uppercase;
     }
 
-    .blag1 {
+    .carousel__img {
         width: 225px;
         height: 270px;
+    }
+
+    .blag__img {
+        width: 215px;
+        height: 270px;
+        margin-top: 50px;
+    }
+    
+    .blag__img img {
+        max-width: 100%;
+        height: auto;
     }
 
     .trust-img img {
